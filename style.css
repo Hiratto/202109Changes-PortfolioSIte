@@ -5,13 +5,14 @@
   --main : #E7F5F5;
   --fc1: #809B9B;
   --fc2: #222;
+  --fc3: #888;
   --blue3: #16a6cb;
   --blue4: #127791;
   --black: #222;
   --white: #fff;
   --gray1: #eee;
   --gray2: #ccc;
-  --gray3: #888;
+
   --gray4: #555;
   --gray5: #444;
   --red: #c50a0a;
@@ -45,6 +46,16 @@ a {
 
 
 /* ======================
+共通
+====================== */
+
+.heading {
+  color: var(--fc1);
+  text-align: center;
+}
+
+
+/* ======================
 ヘッダー
 ====================== */
 
@@ -72,12 +83,58 @@ a {
 
 
 /* ======================
-
+サービス
 ====================== */
+
+.service {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.service-items {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.service-item img {
+  width: 80%;
+}
+
+
 
 /* ======================
-
+Works
 ====================== */
+
+.works {
+  background-color: var(--main);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.works-items {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.works-items img {
+  width: 80%;
+  opacity: .7;
+}
+
+.works-item {
+  padding-top: 15px;
+}
+
+.works-more-link {
+  color: var(--fc3);
+  font-size: 6vw;
+  font-weight: bold;
+  display: block;
+  margin: 10px;
+}
 
 /* ======================
 
