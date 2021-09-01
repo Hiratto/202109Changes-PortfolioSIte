@@ -1,0 +1,89 @@
+@charset "UTF-8";  
+
+/* 色 */
+:root {
+  --main : #E7F5F5;
+  --fc1: #809B9B;
+  --fc2: #222;
+  --blue3: #16a6cb;
+  --blue4: #127791;
+  --black: #222;
+  --white: #fff;
+  --gray1: #eee;
+  --gray2: #ccc;
+  --gray3: #888;
+  --gray4: #555;
+  --gray5: #444;
+  --red: #c50a0a;
+}
+
+/* 基本 */  
+
+body {  
+  font-family: 'Roboto', sans-serif;  
+}  
+
+body, h1, h2, h3, p, figure, ul {  
+  margin: 0;  
+  padding: 0;  
+  list-style: none;  
+}  
+
+a {  
+  text-decoration: none;  
+  color: inherit;  
+}
+
+/* コンテナ */
+
+.container {
+  width: 92%;
+  max-width: 1214px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* ======================
+ヘッダー
+====================== */
+
+.header {
+  background-color: var(--main);
+
+}
+
+.header img {
+  width: 4%;
+
+}
+
+
+/* ======================
+ナビゲーション
+====================== */
+
+.nav {
+  color: var(--fc1);
+}
+
+
+
+
+
+/* ======================
+
+====================== */
+
+/* ======================
+
+====================== */
+
+/* ======================
+
+====================== */
+
+/* ======================
+
+====================== */
+
