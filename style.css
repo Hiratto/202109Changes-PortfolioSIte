@@ -6,16 +6,6 @@
   --fc1: #809B9B;
   --fc2: #222;
   --fc3: #888;
-  --blue3: #16a6cb;
-  --blue4: #127791;
-  --black: #222;
-  --white: #fff;
-  --gray1: #eee;
-  --gray2: #ccc;
-
-  --gray4: #555;
-  --gray5: #444;
-  --red: #c50a0a;
 }
 
 /* 基本 */  
@@ -52,7 +42,13 @@ a {
 .heading {
   color: var(--fc1);
   text-align: center;
-  font-size: 2vw;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .heading {
+    font-size: 24px;
+  }
 }
 
 
@@ -131,7 +127,7 @@ Works
 
 .works-more-link {
   color: var(--fc3);
-  font-size: 6vw;
+  font-size: 24px;
   font-weight: bold;
   display: block;
   margin: 10px;
@@ -164,13 +160,13 @@ Contact
   margin-right: auto;
   max-width: 720px;
   width: 80%;
-  
   }
   @media screen and (max-width: 480px) {
   .Form {
   margin-top: 40px;
   }
   }
+
   .Form-Item {
   border-top: 1px solid #ddd;
   padding-top: 24px;
@@ -188,6 +184,7 @@ Contact
   flex-wrap: wrap;
   }
   }
+
   .Form-Item:nth-child(5) {
   border-bottom: 1px solid #ddd;
   }
@@ -206,6 +203,7 @@ Contact
   font-size: 15px;
   }
   }
+
   .Form-Item-Label.isMsg {
   margin-top: 8px;
   margin-bottom: auto;
@@ -215,6 +213,7 @@ Contact
   margin-top: 0;
   }
   }
+
   .Form-Item-Label-Required {
   border-radius: 6px;
   margin-right: 8px;
@@ -236,6 +235,7 @@ Contact
   font-size: 10px;
   }
   }
+
   .Form-Item-Input {
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -258,6 +258,7 @@ Contact
   font-size: 15px;
   }
   }
+
   .Form-Item-Textarea {
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -280,6 +281,7 @@ Contact
   font-size: 15px;
   }
   }
+
   .Form-Btn {
   border-radius: 6px;
   margin-top: 32px;
