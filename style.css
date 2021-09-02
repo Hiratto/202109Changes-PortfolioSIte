@@ -52,6 +52,7 @@ a {
 }
 
 
+
 /* ======================
 ヘッダー
 ====================== */
@@ -312,6 +313,41 @@ Contact
   }
 
 /* ======================
-
+footer
 ====================== */
 
+.footer {
+  background-color: var(--fc1);
+}
+
+.footer-items {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  padding-left: 30px;
+  display: flex;
+}
+
+.footer-left img {
+  width: 60px;
+  height: 55px;
+}
+
+.footer-nav {
+  color: var(--fc2);
+  padding-left: 20px;
+}
+
+.footer-right {
+
+}
+
+.footer-right img {
+  width: 50px;
+}
