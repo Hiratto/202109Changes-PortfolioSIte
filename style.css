@@ -155,15 +155,15 @@ Contact
 }
 
 .Form {
-  margin-top: 80px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   max-width: 720px;
-  width: 80%;
-  }
-  @media screen and (max-width: 480px) {
+  width: 90%;
+}
+@media screen and (min-width: 480px) {
   .Form {
-  margin-top: 40px;
+    margin-top: 40px;
   }
   }
 
@@ -183,6 +183,10 @@ Contact
   padding-bottom: 16px;
   flex-wrap: wrap;
   }
+  }
+
+  .Form-Item p {
+    text-align: left;
   }
 
   .Form-Item:nth-child(5) {
@@ -216,7 +220,7 @@ Contact
 
   .Form-Item-Label-Required {
   border-radius: 6px;
-  margin-right: 8px;
+  margin-left: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 48px;
